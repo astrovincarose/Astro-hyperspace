@@ -3908,3 +3908,7 @@ input, select, textarea {
 			}
 
 		}
+body, input, select, textarea {
+    color: #ffffff !important;
+}
+
