@@ -3907,8 +3907,8 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
-		}
-body, input, select, textarea {
-    color: #ffffff !important;
+	body, input, select, textarea {
+    color: rgba(255, 255, 255, 0.8) !important;
 }
+
 
