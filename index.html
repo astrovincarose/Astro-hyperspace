@@ -291,15 +291,15 @@
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="POST" action="https://formspree.io/f/manbgpjr">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Имя</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" id="name" required />
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
+												<input type="email" name="email" id="email" required />
 											</div>
                                             <div class="field half">
 												<label for="phone">Телефон</label>
@@ -308,14 +308,15 @@
 											
 											<div class="field">
 												<label for="message">Сообщение</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<textarea name="message" id="message" rows="5" required></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Отправить сообщение</a></li>
-										</ul>
-									</form>
-								</section>
+											<li><button type="submit" class="button">Отправить сообщение</button></li>
+                                        </ul>
+                                    </form>
+                               </section>
+									
 								<section>
 									<ul class="contact">
 								<!--	<li>
@@ -385,6 +386,7 @@
 	</body>
 
 </html>
+
 
 
 
