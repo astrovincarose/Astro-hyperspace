@@ -3871,6 +3871,27 @@ input, select, textarea {
 
 		}
 
+/* для переключателя языка */
+.lang-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 16px;
+}
+
+.lang-switcher a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.lang-switcher a:hover {
+    text-decoration: underline;
+}
+
+
 /* Intro */
 
 	#intro {
@@ -3906,6 +3927,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
