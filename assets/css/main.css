@@ -3240,14 +3240,9 @@ input, select, textarea {
 			background-color: #261c3e;
 		}
 
-	/*	.wrapper.style1 {
+		.wrapper.style1 {
 			background-color: #5e42a6;
-		} */
-
-.wrapper.style1 {
-    background: url("../../images/welcome-bg.jpg") no-repeat center center;
-    background-size: cover;
-}
+		} 
 
 
 		.wrapper.style1-alt {
@@ -3933,6 +3928,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
