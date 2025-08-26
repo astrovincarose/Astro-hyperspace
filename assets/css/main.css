@@ -3245,7 +3245,7 @@ input, select, textarea {
 		} */
 
 .wrapper.style1 {
-    background: url("../images/welcome-bg.jpg") no-repeat center center;
+    background: url("../../images/welcome-bg.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -3933,6 +3933,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
