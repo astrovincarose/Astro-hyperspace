@@ -3255,11 +3255,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style2-alt {
-			background-color: #9370DB#; /*3e4094;*/
+			background-color: #3e4094;
 		}
 
 		.wrapper.style3 {
-			background-color: #9370DB; /* #b74e91; */
+			background-color: #5c3ef5; /* #b74e91; */
 		}
 
 		.wrapper.style3-alt {
@@ -3929,6 +3929,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
