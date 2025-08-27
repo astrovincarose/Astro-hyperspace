@@ -3259,11 +3259,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #00BFFF; /* #b74e91; */
+			background-color: #0000CD; /* #b74e91; */
 		}
 
 		.wrapper.style3-alt {
-			background-color: #1E90FF; /* #953d75; */
+			background-color: #00008B; /* #953d75; */
 		}
 
 		.wrapper.fullscreen {
@@ -3929,6 +3929,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
