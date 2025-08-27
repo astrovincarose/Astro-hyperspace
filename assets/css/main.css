@@ -1999,6 +1999,7 @@ input, select, textarea {
 			width: 100%; /* width: 50%; */ /* ← вот оно! width: 50% заставляет каждый блок занимать половину ширины контейнера → получается 2 колонки.*/
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
+			border-left: none !important; /* убираем разделение колонок */
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -3929,6 +3930,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
