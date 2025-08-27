@@ -2002,7 +2002,7 @@ input, select, textarea {
 			/*border-left: none !important;  убираем разделение колонок */
 		}
 
-			.features section:nth-child(-n + 2) {
+		/*	.features section:nth-child(-n + 2) {
 				border-top-width: 0;
 			}
 
@@ -3930,6 +3930,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
