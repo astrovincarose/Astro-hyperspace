@@ -1996,7 +1996,7 @@ input, select, textarea {
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 100%; /* width: 50%; */ /* ← вот оно! width: 50% заставляет каждый блок занимать половину ширины контейнера → получается 2 колонки.*/
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
@@ -3929,6 +3929,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
 
 
 
